@@ -1,0 +1,216 @@
+/* main */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'EB Garamond',
+        serif;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+
+}
+
+/* main */
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: coral;
+    z-index: 2;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.nav li a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+
+/* cover */
+#cover {
+    text-align: center;
+}
+
+.button__cover {
+    padding-top: 10px;
+}
+
+.cover__button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: coral;
+
+}
+
+
+/* cover */
+
+
+/* firstSwiper */
+
+#best {
+    padding: 50px 0;
+}
+
+#best .swiper {
+    height: 600px;
+}
+
+#best .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#best .swiper-button-next,
+.swiper-button-prev {
+    color: white
+}
+
+#best .swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 50px
+}
+
+#best .swiper-pagination-bullet-active {
+    background: white;
+}
+
+#best .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+
+#cover__swiper {
+    padding: 50px 0;
+}
+
+#cover__swiper .swiper {
+    height: 600px;
+}
+
+#cover__swiper .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#cover__swiper .swiper-button-next,
+.swiper-button-prev {
+    color: white
+}
+
+#cover__swiper .swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 50px
+}
+
+#cover__swiper .swiper-pagination-bullet-active {
+    background: white;
+}
+
+#cover__swiper .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+
+/* firstSwiper */
+
+
+/* Telegram */
+
+
+
+
+
+
+
+/* Telegram */
+
+
+iframe {
+    width: 100%;
+    height: 320px;
+
+}
+
+
+.contacts p {
+    font-size: 24px;
+    padding: 30px 0;
+
+}
+
+/* footer */
+
+footer {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(242, 148, 0, 1) 78%);
+}
+
+.imgBox img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.imgBox{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.logoBox {
+    width: 300px;
+}
+
+.footer__container {
+   padding: 50px 0;
+}
+
+/* footer */

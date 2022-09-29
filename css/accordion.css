@@ -1,0 +1,68 @@
+.accordion__menu__name {
+    padding: 20px;
+    background: rgba(242, 148, 0, 1);
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.accordion__answer__name {
+    padding: 20px;
+    background: rgb(131, 58, 180);
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.accordion__answer__content {
+    padding: 10px 20px;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.accordion__answer__content p {
+    font-size: 20px;
+    padding: 20px 0;
+    transition: .2s ease-out;
+}
+
+
+.accordion__menu__content {
+    padding: 10px 20px;
+    overflow: hidden;
+    max-height: 0;
+
+}
+
+.accordion__menu__content p {
+    font-size: 20px;
+    padding: 20px 0;
+    transition: .2s ease-out;
+}
+
+.accordion__box__menu.accordion__active .accordion__menu__content {
+    max-height: 1000px;
+    transition: .5s ease-in;
+}
+
+.accordion__box__menu.accordion__active .plus {
+    transform: rotate(45deg)
+}
+
+
+
+.accordion__box.accordion__active .accordion__answer__content {
+    max-height: 1000px;
+    transition: .5s ease-in;
+}
+
+.accordion__box.accordion__active .plus {
+    transform: rotate(45deg)
+}

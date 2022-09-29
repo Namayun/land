@@ -1,0 +1,30 @@
+#feedBackBox { 
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(242, 148, 0, 1) 78%);
+    padding: 100px;
+    border-radius: 1rem;
+}
+
+
+
+#applyBox { 
+background: rgb(131, 58, 180);
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(242, 148, 0, 1) 78%);
+padding: 100px;
+border-radius:  1rem;
+
+} 
+
+button {
+    border: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+    padding: 3px 5px;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+input {
+ border: none;
+ border-radius: 0.2rem;
+}
